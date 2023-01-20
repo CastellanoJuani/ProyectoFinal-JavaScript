@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dentro de esta pagina podremos encontrar tanto indumentaria deportiva, como indumentaria overside. Tambien encontraras zapatillas y accesorios.">
+    <script src="https://kit.fontawesome.com/f8243d263e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./bootstrap-5.2.1-dist/Css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Nike/Contacto</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+                        <!---Menu de Navegacion-->
+    
+            <div class="logo">
+              <a href="jordan.html"><img src="./imagenes/LogoJordan.png" alt="Logo Jordan"></a>
+              <a href="index.html"><img src="./imagenes/LogoNike.png" alt="Logo Nike"></a>
+            </div>
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Ropa
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Remeras</a></li>
+                          <li><a class="dropdown-item" href="#">Buzos</a></li>
+                          <li><a class="dropdown-item" href="#">Camperas</a></li>
+                          <li><a class="dropdown-item" href="#">Pantalones</a></li>
+                          <li><a class="dropdown-item" href="#">shorts</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="zapatillas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Zapatillas
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="airforce.html">Airforce</a></li>
+                          <li><a class="dropdown-item" href="#">Airmax</a></li>
+                          <li><a class="dropdown-item" href="#">Jordan</a></li>
+                          <li><a class="dropdown-item" href="#">Running</a></li>
+                        </ul>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                          </li>
+                          <a href="./carrito.html" class="me-3 mt-2 position-relative">
+                            <img src="./imagenes/cart.png" alt="carrito">
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="contador-carrito">
+                              0
+                            </span>
+                          </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main class="container-fluid p-0"> 
+          <div class="row h-100 m-0">
+    
+            <div class="fadeInEntrance col col-lg-6 d-flex flex-column justify-content-center p-5 py-xxl-0 m-5 m-lg-0">
+              <form method="get" class="main__form needs-validation" id="contacto-form">
+                <fieldset>
+                  <p class="mt-0"><em>Nuestro horario de atención es de Lunes a Sabados, de 10 a 20:30 hs.</em></p>
+                  <p class="mb-4 mt-0"><em>Escribinos tu consulta y a la brevedad un representante se pondra en contacto.</em></p>
+    
+                  <legend class="fontSizeTitle fontAlexBrush mb-3 mt-3">Contactate con nosotros</legend>
+                  
+                  <div class="mb-3">
+                      <label for="Nombre" class="form-label">Nombre:</label>
+                      <input type="text" class="form-control" name="Nombre" placeholder="Ingrese su nombre" required>
+                  </div>
+        
+                  <div class="mb-3">
+                      <label for="Email" class="form-label">Email:</label>
+                      <input type="email" class="form-control" name="Email" placeholder="Ingrese su correo" required>
+                  </div>
+        
+                  <div class="mb-3">
+                      <label for="Telefono" class="form-label">Teléfono:</label>
+                      <input type="tel" class="form-control" name="Telefono" placeholder="Ingrese su teléfono">
+                  </div>
+                    
+                  <div class="mb-3">
+                    <label for="Mensaje" class="form-label">Mensaje:</label>
+                    <textarea class="form-control" rows="5" name="Mensaje" required></textarea>
+                  </div>
+    
+                  <input type="submit" value="Enviar" class="btn btn-secondary" id="contactoBtn">
+                </fieldset>
+              </form>
+            </div>
+    </div>
+
+    <script>
+      (function () {
+      'use strict'
+
+      var forms = document.querySelectorAll('.needs-validation')
+
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+          }, false)
+        })
+      })()
+    </script>
+
+<script src="./scripts/contacto-page.js"></script>
+<script src="./scripts/contador-carrito.js"></script>
+
+</body>
+</html>

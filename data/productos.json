@@ -1,0 +1,33 @@
+[
+    {
+      "nombre": "Nike Air Force 1'07 Premium",
+      "precio": 40.000,
+      "descripcion": "Zapatillas con camara de aire, estilo urbanas.",
+      "titulo": "Air Force",
+      "categoria": "zapatillas"
+    },
+  
+    {
+      "nombre": "Nike Air Force 1'07",
+      "precio": 30.000,
+      "descripcion": "Zapatillas con camara de aire, estilo urbanas.",
+      "titulo": "Air Force",
+      "categoria": "zapatillas"
+    },
+  
+    {
+      "nombre": "Nike Air Force 1'07 LV8",
+      "precio": 30.000,
+      "descripcion": "Zapatillas con camara de aire, estilo urbanas.",
+      "titulo": "Air Force",
+      "categoria": "zapatillas"
+    },
+  
+    {
+      "nombre": "Nike Air Force 1 Carter Flyknit Next Nature",
+      "precio": 40.000,
+      "descripcion": "Zapatillas con camara de aire, estilo urbanas.",
+      "titulo": "Air Force",
+      "categoria": "zapatillas"
+    }
+]
